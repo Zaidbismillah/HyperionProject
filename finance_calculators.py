@@ -33,6 +33,7 @@ t = years
 simple_calc = round(p * (1 + r*t) + p)
 compound_calc = round(p * math.pow((1+r) , t) + p)
 
+#If the users input is investment, another input should be prompted that asks a user if they would prefer simple or compound interest
 if(menu_input == "investment"):
     interest_input = input("Would you prefer Simple or Compound Interest?")
 
